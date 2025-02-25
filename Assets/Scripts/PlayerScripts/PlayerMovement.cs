@@ -167,7 +167,7 @@ public class PlayerMovement : MonoBehaviour
         if (other.CompareTag("Memory"))
         {
             Destroy(other.gameObject);
-            memoryCount++;
+            memoryCount = memoryCount + 1;
 
             memoryUI.UpdateMemoryCount(memoryCount);
         }
