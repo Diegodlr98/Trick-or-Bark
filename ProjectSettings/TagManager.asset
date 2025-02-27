@@ -8,6 +8,7 @@ TagManager:
   - Light
   - Memory
   - Enemy
+  - Tutorial
   layers:
   - Default
   - TransparentFX

@@ -171,5 +171,10 @@ public class PlayerMovement : MonoBehaviour
 
             memoryUI.UpdateMemoryCount(memoryCount);
         }
+        if (other.CompareTag("Tutorial"))
+        {
+            Destroy(other.gameObject);
+
+        }
     }
 }
